@@ -1,0 +1,203 @@
+html {
+
+}
+
+body {
+    font-family: 'Open Sans', sans-serif, arial;
+}
+
+
+.farsi {
+  font-family: tahoma,arial;
+}
+
+hr {
+  background: #CCC;
+  border: 0;
+  height: 1px;
+  margin: 40px -20px;
+}
+
+
+.container {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  overflow: scroll;
+}
+
+.container-outer {
+  width: 100%;
+  height: 100%;
+}
+
+.container-inner {
+  vertical-align: middle;
+  position: relative;
+}
+
+
+
+.background, 
+.background div {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  overflow: hidden;
+}
+
+.background {
+  position: absolute; 
+}
+
+.background-area {
+  z-index: 0;
+  position: fixed;
+}
+
+.background-gra {
+  background-image: linear-gradient(120deg, #d9b0d9 0%, #97d9e1 100%);
+  position: absolute;
+  z-index: 3;
+}
+
+.background-overlay {
+  position: absolute;
+  z-index: 2;
+  background: rgba(0,0,0,.2);
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+
+.main {
+  position: relative;
+  z-index: 1;
+  background: #fff;
+  margin: 30px auto;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: inset 0 4px 7px 1px #fff,inset 0 -5px 20px rgba(173,186,204,.25),0 2px 6px rgba(0,21,64,.14),0 10px 20px rgba(0,21,64,.05);
+}
+
+.main,
+#saleh__image {
+  width: 700px;
+}
+
+
+
+.hero {
+  overflow: hidden;
+}
+
+.hero-area {
+  overflow: hidden;
+  padding: 50px 0;
+  background-image: url('images/bg.jpg');
+  z-index: 1;
+  background-size: cover !important;
+  background-position: 50% !important;
+}
+
+.hero-container {
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+  clear: both;
+}
+
+#saleh__image {
+  border-radius: 50%;
+}
+
+.hero-container,
+ #saleh__image {
+  height: 350px;
+  width: 350px;
+ }
+
+
+
+.content {
+  padding: 20px;
+}
+
+.saleh-name {
+  font-size: 46px;
+  font-weight: 700;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.saleh-name .farsi {
+  font-size: 36px;
+}
+
+.slogan {
+  font-size: 28px;
+  font-weight: 300;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.skills {
+  padding-left: 20px;
+}
+
+.skills li {
+  list-style: circle;
+  padding-left: 5px;
+  line-height: 24px;
+}
+
+.linkedin {
+  
+}
+
+.LI-badge-container.horizontal.light {
+  width: 100% !important;
+}
+
+
+.header-title {
+  font-size: 28px;
+  font-weight: 300;
+  margin: 10px 0 26px;
+  text-align: center;
+}
+
+.social-container {
+  text-align: center;
+}
+
+.social-link {
+  text-decoration: none;
+}
+
+.social-link i {
+  background: transparent none repeat scroll 0% 0%;
+  font-size: 32px;
+  border-width: 1px;
+  color: #4e566d;
+  border-color: #e6e8ec !important;
+  display: inline-block;
+  cursor: pointer;
+  border: 2px solid;
+  line-height: 50px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin: 0 10px 20px;
+  vertical-align: middle;
+}
+.social-link:hover i {
+  background: #4e566d none repeat scroll 0 0;
+  color: white;
+  border-color: #4e566d !important;
+}
