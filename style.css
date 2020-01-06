@@ -221,3 +221,23 @@ hr {
   color: white;
   border-color: #4e566d !important;
 }
+
+.certification-link {
+	text-decoration: none;
+  background: transparent none repeat scroll 0% 0%;
+  color: #4e566d;
+  border-color: #e6e8ec !important;
+  display: inline-block;
+  border: 1px solid;
+  border-radius: 10px;
+  margin: 5px 0;
+  vertical-align: middle;
+  padding: 10px 0;
+  width: 100%;
+}
+
+.certification-link:hover {
+  background: #4e566d none repeat scroll 0 0;
+  color: white;
+  border-color: #4e566d !important;
+}
